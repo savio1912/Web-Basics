@@ -3,9 +3,47 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Title</title>
+	<title>Marathon Registration Form</title>
 </head>
 <body>
-
+<h1>Marathon Registrstion Form</h1>
+<form>
+	<div>
+		<label for="fname">First Name</label>
+		<input type="text" name="fname" id="fname" required placeholder="eg: Savio">
+		<label for="lname">Last Name</label>
+		<input type="text" name="lname" id="lname" placeholder="eg: A">
+	</div>
+	<div>
+		<p>Select a Race</p>
+		<input type="radio" name="racetype" id="funRun" value="funRun">
+		<label for="funRun">Fun run</label>
+		<input type="radio" name="racetype" id="hmarathon" value="hmarathon">
+		<label for="hmarathon">Half Marathon</label>
+		<input type="radio" name="racetype" id="fmarathon" value="fmarathon">
+		<label for="fmarathon">Full Marathon</label>
+	</div>
+	<div>
+		<label for="mail">Email</label>
+		<input type="email" name="email" id="mail" placeholder="iamsavio19@gamil.com" required>
+		<label for="mno">Mobile Number</label>
+		<input type="tel" name="Mobile" id="mno" pattern="[0-9]{5}-[0-9]{5}" placeholder="75501-71471">
+	</div>
+	<div>
+		<label for="pass">Password</label>
+		<input type="Password" name="Password" id="pass" minlength="5" maxlength="13" required>
+	</div>
+	<div>
+		<label for="select-age">Select age group</label>
+		<select id="select-age" name="age-group">
+			<option value="none">select age</option>
+			<option value="u10">under 10</option>
+			<option value="11-18">11-18</option>
+			<option value="19-25">19-25</option>
+			<option value="a25">above 25</option>
+		</select>
+	</div>
+	<button>Register</button>
+</form>
 </body>
 </html>
