@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(230, 130, 100);
+    background-color: #C2FFF9;
   }
   
   h1 {
@@ -22,9 +22,23 @@ body {
   }
   button
   {
-    color:blue;
+    color:rgb(1, 1, 1);
+    background-color: #009DAE;
+    font-size: 20px;
   }
   input
   {
     line-height: 2;
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+  }
+   label
+  {
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+  }
+  div a:hover{
+    color: black;
   }
