@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(230, 130, 100);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    background-color:cornflowerblue;
+    font-weight: bolder;
+  }
+  
+  p {
+    font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, 'sans-serif';
+    color: rebeccapurple;
+    font-size: 29px;
+    text-align:justify;
+    font-weight:900;
+    /* background-color: cornflowerblue; */
+    text-decoration: underline dotted;
+    text-decoration-color: yellow;
+    letter-spacing:.1cm;
+  }
+  button
+  {
+    color:blue;
+  }
+  input
+  {
+    line-height: 2;
+  }
