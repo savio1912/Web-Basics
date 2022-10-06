@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+   
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +41,112 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+html
+{
+    box-sizing: border-box;
+}
+.panel
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+body
+{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.pricing-plan
+{
+    border-bottom: 1px solid #e1f1ff;
+}
+.pricing-img
+{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.pricing-header
+{
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: grey;
+}
+.pricing-features
+{
+    margin:50px 0 20px;
+    color: #016ff9;
+}
+.pricing-features-item
+{
+    font-weight: 600;
+    padding: 15px 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-top: 2px solid #e1f1ff;
+    line-height: 1.5;
+}
+.pricing-features-item:last-child
+{
+    border-bottom: 2px solid #e1f1ff;
+}
+.pricing-price
+{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #016ff9;
+}
+.pricing-button
+{
+    border:1px solid #9dd1ff;
+    text-decoration:none ;
+    padding: 15px 35px;
+    color: #348efe;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 25px 0;
+    transition: all 200ms ease-in-out;
+}
+.pricing-button:hover
+{
+    background-color: #e1f1ff;
+}
+.is-featured
+{
+    background-color: #48aaff;
+    color: white;
+}
+.is-featured:hover{
+    background-color: #269aff;
+    color: white;
+}
+
+
+@media(min-width:900px)
+{
+    .panel
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .pricing-plan
+    {
+        border-bottom: none;
+        padding: 25px 50px ;
+        border-right: 2px solid #e1f1ff;
+    }
+    .pricing-plan:last-child
+    {
+        border-right: none;
+    }
 }
