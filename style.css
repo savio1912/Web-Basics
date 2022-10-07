@@ -42,3 +42,13 @@ body {
   div a:hover{
     color: black;
   }
+  input:hover{
+    background-color: black;
+  }
+  div + input
+  {
+    background-color: blue;
+  }
+  p h2{
+    background-color: aquamarine;
+  }
